@@ -1,7 +1,7 @@
 import { AppPage } from './app.po';
 import { browser } from 'protractor';
 
-describe('workspace-project App', () => {
+xdescribe('workspace-project App', () => {
   let page: AppPage;
 
   beforeEach(() => {
@@ -9,7 +9,7 @@ describe('workspace-project App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  xit('should display welcome message', () => {
     page.navigateTo();
     page.searchText('Typescript');
 

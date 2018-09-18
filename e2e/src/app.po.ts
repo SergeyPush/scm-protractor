@@ -1,4 +1,4 @@
-import { browser, by, element, Key } from 'protractor';
+import {browser, by, element, Key} from 'protractor';
 
 export class AppPage {
   navigateTo() {
@@ -9,7 +9,7 @@ export class AppPage {
     return element(by.css('app-root h1')).getText();
   }
 
-  searchText(text:string){
+  searchText(text: string) {
     element(by.name('q')).sendKeys(text);
     element(by.name('q')).sendKeys(Key.ENTER);
   }
